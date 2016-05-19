@@ -1,0 +1,29 @@
+{
+  "name": "simple-order",
+  "version": "1.0.0",
+  "description": "Node based API wrapper for the Simple Order API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabacus/node-simpleorder.git"
+  },
+  "keywords": [
+    "simple",
+    "order",
+    "simpleorder",
+    "API",
+    "node-simpleorder"
+  ],
+  "author": "Kristo Mikkonen <mikkonek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabacus/node-simpleorder/issues"
+  },
+  "homepage": "https://github.com/fabacus/node-simpleorder#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
