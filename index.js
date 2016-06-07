@@ -99,6 +99,11 @@ class SimpleOrder {
             new Error('403: Refresh token already used.')
           );
         }
+        if ((typeof body) === 'string') {
+          console.log(body);
+          body = JSON.parse(body);
+        }
+
         resolve(body);
 
       });
