@@ -1,6 +1,6 @@
 {
   "name": "simple-order",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Node based API wrapper for the Simple Order API.",
   "main": "index.js",
   "scripts": {
