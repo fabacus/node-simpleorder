@@ -95,15 +95,15 @@ class SimpleOrder {
           );
         }
         if ((response.statusCode) == '403') {
-          reject(
-            new Error('403: Refresh token already used.')
+          return reject(
+            ('403: Refresh token already used.')
           );
         }
 
         if ((response.statusCode) == '400') {
-          reject(
-            new Error(body);
-          );
+          return reject(
+            (body)
+          )
         }
 
 
@@ -112,7 +112,7 @@ class SimpleOrder {
           body = JSON.parse(body);
         }
 
-        resolve(body);
+        return resolve(body);
 
       });
 
